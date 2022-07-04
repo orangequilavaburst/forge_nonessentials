@@ -1,0 +1,14 @@
+{
+  "item.forager_nonessentials.test_item": "Test Item",
+  "item.forager_nonessentials.orichalcum_ingot": "Orichalcum Ingot",
+  "item.forager_nonessentials.raw_orichalcum": "Raw Orichalcum",
+  "item.forager_nonessentials.orichalcum_sword": "Orichalcum Sword",
+  "block.forager_nonessentials.test_block": "Test Block",
+  "block.forager_nonessentials.orichalcum_block": "Block of Orichalcum",
+  "block.forager_nonessentials.raw_orichalcum_block": "Block of Raw Orichalcum",
+  "block.forager_nonessentials.orichalcum_ore": "Orichalcum Ore",
+  "block.forager_nonessentials.deepslate_orichalcum_ore": "Deepslate Orichalcum Ore",
+  "block.forager_nonessentials.orichalcum_anvil": "Orichalcum Anvil",
+  "block.forager_nonessentials.bubblegum_block": "Bubblegum Block",
+  "itemGroup.forager_tab": "Forager Nonessentials"
+}

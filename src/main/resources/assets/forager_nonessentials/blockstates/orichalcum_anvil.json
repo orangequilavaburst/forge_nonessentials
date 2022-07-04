@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "forager_nonessentials:block/orichalcum_anvil",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "forager_nonessentials:block/orichalcum_anvil",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "forager_nonessentials:block/orichalcum_anvil"
+    },
+    "facing=west": {
+      "model": "forager_nonessentials:block/orichalcum_anvil",
+      "y": 90
+    }
+  }
+}
