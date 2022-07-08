@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "forager_nonessentials:white_starry_wool",
+    "forager_nonessentials:orange_starry_wool",
+    "forager_nonessentials:magenta_starry_wool",
+    "forager_nonessentials:light_blue_starry_wool",
+    "forager_nonessentials:yellow_starry_wool",
+    "forager_nonessentials:lime_starry_wool",
+    "forager_nonessentials:pink_starry_wool",
+    "forager_nonessentials:gray_starry_wool",
+    "forager_nonessentials:light_gray_starry_wool",
+    "forager_nonessentials:cyan_starry_wool",
+    "forager_nonessentials:purple_starry_wool",
+    "forager_nonessentials:blue_starry_wool",
+    "forager_nonessentials:brown_starry_wool",
+    "forager_nonessentials:green_starry_wool",
+    "forager_nonessentials:red_starry_wool",
+    "forager_nonessentials:black_starry_wool"
+
+  ]
+}

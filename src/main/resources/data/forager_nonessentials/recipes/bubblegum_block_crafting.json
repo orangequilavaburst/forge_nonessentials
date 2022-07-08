@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#f",
+    "f#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "f": {
+      "item": "forager_nonessentials:orichalcum_ingot"
+    }
+  },
+  "result": {
+    "item": "forager_nonessentials:bubblegum_block",
+    "count": 4
+  }
+}

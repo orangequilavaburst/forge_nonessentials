@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "forager_nonessentials:bubblegum_block"
+    }
+  },
+  "result": {
+    "item": "forager_nonessentials:bubblegum_stairs",
+    "count": 4
+  }
+}

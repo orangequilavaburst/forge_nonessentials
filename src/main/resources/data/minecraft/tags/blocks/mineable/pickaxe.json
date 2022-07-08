@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "forager_nonessentials:orichalcum_block",
+    "forager_nonessentials:raw_orichalcum_block",
+    "forager_nonessentials:orichalcum_ore",
+    "forager_nonessentials:deepslate_orichalcum_ore",
+    "forager_nonessentials:bubblegum_block"
+  ]
+}

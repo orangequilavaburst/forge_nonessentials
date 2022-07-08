@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "forager_nonessentials:block/bubblegum_block",
+    "top": "forager_nonessentials:block/bubblegum_block",
+    "side": "forager_nonessentials:block/bubblegum_block"
+  }
+}

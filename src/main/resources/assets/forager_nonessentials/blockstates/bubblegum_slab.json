@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "forager_nonessentials:block/bubblegum_slab"
+    },
+    "type=double": {
+      "model": "forager_nonessentials:block/bubblegum_block"
+    },
+    "type=top": {
+      "model": "forager_nonessentials:block/bubblegum_slab_top"
+    }
+  }
+}

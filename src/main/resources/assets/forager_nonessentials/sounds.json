@@ -1,0 +1,26 @@
+{
+  "honesty_use": {
+    "subtitle": "sounds.forager_nonessentials.honesty_use",
+    "sounds": [
+      "forager_nonessentials:honesty_use"
+    ]
+  },
+  "amongus_ambient": {
+    "subtitle": "sounds.forager_nonessentials.amongus_ambient",
+    "sounds": [
+      "forager_nonessentials:amongus_ambient"
+    ]
+  },
+  "amongus_hurt": {
+    "subtitle": "sounds.forager_nonessentials.amongus_hurt",
+    "sounds": [
+      "forager_nonessentials:amongus_hurt"
+    ]
+  },
+  "amongus_death": {
+    "subtitle": "sounds.forager_nonessentials.amongus_death",
+    "sounds": [
+      "forager_nonessentials:amongus_death"
+    ]
+  }
+}

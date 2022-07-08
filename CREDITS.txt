@@ -22,3 +22,8 @@ j8bit_forager
 
 Models -
 j8bit_forager
+
+Fonts -
+ColorSwitchFan25
+DecorouzSpoNge.YT
+Haley Wakamatsu

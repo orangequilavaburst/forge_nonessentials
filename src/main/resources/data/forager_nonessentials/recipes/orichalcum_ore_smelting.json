@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "forager_nonessentials:orichalcum_ore"
+  },
+  "result": "forager_nonessentials:orichalcum_ingot",
+  "experience": 0.5,
+  "cookingtime": 200
+}

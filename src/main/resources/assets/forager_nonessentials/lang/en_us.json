@@ -1,14 +1,62 @@
 {
   "item.forager_nonessentials.test_item": "Test Item",
+
   "item.forager_nonessentials.orichalcum_ingot": "Orichalcum Ingot",
   "item.forager_nonessentials.raw_orichalcum": "Raw Orichalcum",
-  "item.forager_nonessentials.orichalcum_sword": "Orichalcum Sword",
+  "item.forager_nonessentials.orichalcum_sword": "Orichalcum Broadsword",
+  "item.forager_nonessentials.orichalcum_pickaxe": "Orichalcum Drill",
+  "item.forager_nonessentials.orichalcum_axe": "Orichalcum Chainsaw",
+  "item.forager_nonessentials.orichalcum_shovel": "Orichalcum Spade",
+  "item.forager_nonessentials.orichalcum_hoe": "Orichalcum Scythe",
+
+  "item.forager_nonessentials.glazed_donut": "Glazed Donut",
+  "item.forager_nonessentials.vanilla_frosted_donut": "Vanilla Frosted Donut",
+  "item.forager_nonessentials.chocolate_frosted_donut": "Chocolate Frosted Donut",
+  "item.forager_nonessentials.sprinkle_donut": "Sprinkle Donut",
+
+  "item.forager_nonessentials.amongus_egg": "Amongus Spawn Egg",
+
   "block.forager_nonessentials.test_block": "Test Block",
+
   "block.forager_nonessentials.orichalcum_block": "Block of Orichalcum",
   "block.forager_nonessentials.raw_orichalcum_block": "Block of Raw Orichalcum",
   "block.forager_nonessentials.orichalcum_ore": "Orichalcum Ore",
   "block.forager_nonessentials.deepslate_orichalcum_ore": "Deepslate Orichalcum Ore",
   "block.forager_nonessentials.orichalcum_anvil": "Orichalcum Anvil",
+
   "block.forager_nonessentials.bubblegum_block": "Bubblegum Block",
-  "itemGroup.forager_tab": "Forager Nonessentials"
+  "block.forager_nonessentials.bubblegum_slab": "Bubblegum Slab",
+  "block.forager_nonessentials.bubblegum_stairs": "Bubblegum Stairs",
+  "block.forager_nonessentials.bubblegum_wall": "Bubblegum Wall",
+
+  "block.forager_nonessentials.white_starry_wool": "White Starry Wool",
+  "block.forager_nonessentials.light_gray_starry_wool": "Light Gray Starry Wool",
+  "block.forager_nonessentials.gray_starry_wool": "Gray Starry Wool",
+  "block.forager_nonessentials.black_starry_wool": "Black Starry Wool",
+  "block.forager_nonessentials.brown_starry_wool": "Brown Starry Wool",
+  "block.forager_nonessentials.red_starry_wool": "Red Starry Wool",
+  "block.forager_nonessentials.orange_starry_wool": "Orange Starry Wool",
+  "block.forager_nonessentials.yellow_starry_wool": "Yellow Starry Wool",
+  "block.forager_nonessentials.lime_starry_wool": "Lime Starry Wool",
+  "block.forager_nonessentials.green_starry_wool": "Green Starry Wool",
+  "block.forager_nonessentials.light_blue_starry_wool": "Light Blue Starry Wool",
+  "block.forager_nonessentials.blue_starry_wool": "Blue Starry Wool",
+  "block.forager_nonessentials.purple_starry_wool": "Purple Starry Wool",
+  "block.forager_nonessentials.magenta_starry_wool": "Magenta Starry Wool",
+  "block.forager_nonessentials.cyan_starry_wool": "Cyan Starry Wool",
+  "block.forager_nonessentials.pink_starry_wool": "Pink Starry Wool",
+
+  "itemGroup.forager_tab": "Forager Nonessentials",
+
+  "tooltip.forager_nonessentials.glazed_donut_tooltip": "\u00A78No Effect\u00A7r",
+  "tooltip.forager_nonessentials.vanilla_frosted_donut_tooltip": "\u00A79Regeneration I (0:30)\u00A7r",
+  "tooltip.forager_nonessentials.chocolate_frosted_donut_tooltip": "\u00A79Haste I (0:30)\u00A7r",
+  "tooltip.forager_nonessentials.sprinkle_donut_tooltip": "\u00A79Speed I (0:30)\u00A7r",
+
+  "sounds.forager_nonessentials.honesty_use": "Totem celebrates",
+  "sounds.forager_nonessentials.amongus_ambient": "Amongus aeious",
+  "sounds.forager_nonessentials.amongus_hurt": "VINE BOOM",
+  "sounds.forager_nonessentials.amongus_death": "Amongus dies",
+
+  "entity.examplemod.amongus": "Amongus"
 }
