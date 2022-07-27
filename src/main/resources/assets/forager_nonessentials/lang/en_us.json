@@ -16,6 +16,8 @@
 
   "item.forager_nonessentials.amongus_egg": "Amongus Spawn Egg",
 
+  "item.forager_nonessentials.totem_of_honesty": "Totem of Honesty",
+
   "block.forager_nonessentials.test_block": "Test Block",
 
   "block.forager_nonessentials.orichalcum_block": "Block of Orichalcum",
@@ -58,5 +60,7 @@
   "sounds.forager_nonessentials.amongus_hurt": "VINE BOOM",
   "sounds.forager_nonessentials.amongus_death": "Amongus dies",
 
-  "entity.examplemod.amongus": "Amongus"
+  "entity.forager_nonessentials.amongus": "Amongus",
+
+  "enchantment.forager_nonessentials.energy_drain": "Energy Drain"
 }

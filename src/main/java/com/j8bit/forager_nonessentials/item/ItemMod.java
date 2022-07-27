@@ -39,7 +39,7 @@ public class ItemMod {
    // combat/tool items
 
    public static final RegistryObject<Item> ORICHALCUM_SWORD = ITEMS.register("orichalcum_sword",
-           () -> new OrichalcumSwordItem(ToolTierMod.ORICHALCUM, 2, 3.0f, new Item.Properties().tab(CreativeModeTabMod.FORAGER_TAB)));
+           () -> new ItemRecoilSword(ToolTierMod.ORICHALCUM, 2, 3.0f, new Item.Properties().tab(CreativeModeTabMod.FORAGER_TAB)));
    public static final RegistryObject<Item> ORICHALCUM_PICKAXE = ITEMS.register("orichalcum_pickaxe",
            () -> new PickaxeItem(ToolTierMod.ORICHALCUM, 1, 1.0f, new Item.Properties().tab(CreativeModeTabMod.FORAGER_TAB)));
    public static final RegistryObject<Item> ORICHALCUM_AXE = ITEMS.register("orichalcum_axe",
@@ -59,7 +59,8 @@ public class ItemMod {
 
    // other items
 
-
+   public static final RegistryObject<Item> TOTEM_OF_HONESTY = ITEMS.register("totem_of_honesty",
+           () -> new ItemTotem(new Item.Properties().tab(CreativeModeTabMod.FORAGER_TAB)));
 
    public static void register(IEventBus eventBus){
 

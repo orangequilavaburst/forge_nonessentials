@@ -1,9 +1,11 @@
 package com.j8bit.forager_nonessentials;
 
 import com.j8bit.forager_nonessentials.block.BlockMod;
+import com.j8bit.forager_nonessentials.enchantment.EnchantmentMod;
 import com.j8bit.forager_nonessentials.entity.EntityMod;
 import com.j8bit.forager_nonessentials.entity.client.AmongusRenderer;
 import com.j8bit.forager_nonessentials.item.ItemMod;
+import com.j8bit.forager_nonessentials.particle.ParticleMod;
 import com.j8bit.forager_nonessentials.sound.SoundMod;
 import com.j8bit.forager_nonessentials.util.ItemPropertiesMod;
 import com.mojang.logging.LogUtils;
@@ -47,6 +49,8 @@ public class ForagerNonessentials
         BlockMod.register(modEventBus);
         SoundMod.register(modEventBus);
         EntityMod.register(modEventBus);
+        ParticleMod.register(modEventBus);
+        EnchantmentMod.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

@@ -3,6 +3,10 @@ package com.j8bit.forager_nonessentials.event;
 import com.j8bit.forager_nonessentials.ForagerNonessentials;
 import com.j8bit.forager_nonessentials.entity.AmongusEntity;
 import com.j8bit.forager_nonessentials.entity.EntityMod;
+import com.j8bit.forager_nonessentials.particle.ParticleMod;
+import com.j8bit.forager_nonessentials.particle.custom.ConfettiParticle;
+import net.minecraft.client.Minecraft;
+import net.minecraftforge.client.event.ParticleFactoryRegisterEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -21,6 +25,9 @@ public class EventBusEventsMod {
         event.put(EntityMod.AMONGUS.get(), AmongusEntity.setAttributes());
     }
 
-    
+    @SubscribeEvent
+    public static void registerParticleFactories(final ParticleFactoryRegisterEvent event){
+        Minecraft.getInstance().particleEngine.register(ParticleMod.CONFETTI_PARTICLES.get(), ConfettiParticle.Provider::new);
+    }
 
 }
