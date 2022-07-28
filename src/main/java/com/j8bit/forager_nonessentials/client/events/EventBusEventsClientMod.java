@@ -24,26 +24,11 @@ import java.util.Objects;
 
 @Mod.EventBusSubscriber(modid = ForagerNonessentials.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class EventBusEventsClientMod {
-
-    @Nullable
-    private static ShaderInstance renderTypeAlteredSight;
     @SubscribeEvent
     public void clientSetup(final FMLClientSetupEvent event)
     {
 
         EntityRenderers.register(EntityMod.AMONGUS.get(), AmongusRenderer::new);
-
-    }
-
-    public static ShaderInstance getRenderTypeAlteredSight(){
-        return Objects.requireNonNull(renderTypeAlteredSight, "Attempted to call getRenderTypeAlteredSight before shaders have finished loading.");
-    }
-
-    public void registerShaders(RegisterShadersEvent event) throws IOException {
-
-        event.registerShader(new ShaderInstance(event.getResourceManager(), new ResourceLocation("forager_nonessentials","rendertype_altered_sight"), DefaultVertexFormat.POSITION), (p_172645_) -> {
-            renderTypeAlteredSight = p_172645_;
-        });
 
     }
 
