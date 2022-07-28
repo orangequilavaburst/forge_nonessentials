@@ -25,6 +25,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import software.bernie.geckolib3.GeckoLib;
 
 import java.util.stream.Collectors;
 
@@ -43,7 +44,6 @@ public class ForagerNonessentials
         // Register the setup method for modloading
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
-        modEventBus.addListener(this::clientSetup);
 
         ItemMod.register(modEventBus);
         BlockMod.register(modEventBus);
@@ -51,6 +51,8 @@ public class ForagerNonessentials
         EntityMod.register(modEventBus);
         ParticleMod.register(modEventBus);
         EnchantmentMod.register(modEventBus);
+
+        GeckoLib.initialize();
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -63,13 +65,6 @@ public class ForagerNonessentials
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
 
         ItemPropertiesMod.addCustomItemProperties();
-
-    }
-
-    private void clientSetup(final FMLClientSetupEvent event)
-    {
-
-        EntityRenderers.register(EntityMod.AMONGUS.get(), AmongusRenderer::new);
 
     }
 

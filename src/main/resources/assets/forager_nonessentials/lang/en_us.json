@@ -62,5 +62,7 @@
 
   "entity.forager_nonessentials.amongus": "Amongus",
 
-  "enchantment.forager_nonessentials.energy_drain": "Energy Drain"
+  "enchantment.forager_nonessentials.energy_drain": "Energy Drain",
+  "enchantment.forager_nonessentials.magic_protection": "Magic Protection",
+  "enchantment.forager_nonessentials.heavy_duty": "Heavy Duty"
 }
