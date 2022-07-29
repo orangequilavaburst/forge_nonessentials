@@ -34,7 +34,7 @@ public class AlteredSightLayer extends RenderLayer {
         LocalPlayer player = Minecraft.getInstance().player;
         ItemStack playerHelmet = player.getItemBySlot(EquipmentSlot.HEAD);
         if (entity instanceof LivingEntity) {
-            if (((LivingEntity) entity).hasEffect(MobEffects.INVISIBILITY)) {
+            if (((LivingEntity) entity).getEffect(MobEffects.INVISIBILITY) != null) {
                 if (!playerHelmet.isEmpty()) {
                     //entity.setInvisible(false);
                     VertexConsumer ivertexbuilder = bufferIn.getBuffer(FNRenderTypes.alteredSight(new ResourceLocation(ForagerNonessentials.MODID, "textures/environment/altered_sight.png")));
