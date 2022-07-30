@@ -22,6 +22,9 @@ public class EnchantmentMod {
     public static RegistryObject<Enchantment> HEAVY_DUTY = ENCHANTMENTS.register("heavy_duty",
             () -> new EnchantmentModProtection(Enchantment.Rarity.UNCOMMON, EnchantmentModProtection.Type.ANNOYING, new EquipmentSlot[]{EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET}));
 
+    public static RegistryObject<Enchantment> ALTERED_SIGHT = ENCHANTMENTS.register("altered_sight",
+            () -> new EnchantmentAlteredSight(Enchantment.Rarity.VERY_RARE, EnchantmentCategory.ARMOR_HEAD, EquipmentSlot.HEAD));
+
     public static void register(IEventBus eventBus){
         ENCHANTMENTS.register(eventBus);
     }

@@ -4,6 +4,7 @@ import com.google.common.collect.ImmutableList;
 import com.j8bit.forager_nonessentials.ForagerNonessentials;
 import com.j8bit.forager_nonessentials.client.render.layer.AlteredSightLayer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
+import net.minecraft.client.renderer.entity.layers.CreeperPowerLayer;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.DefaultAttributes;
@@ -42,9 +43,10 @@ public class ClientLayerRegistry {
             try{
                 renderer = event.getRenderer(entityType);
             }catch (Exception e){
-                ForagerNonessentials.LOGGER.warn("Could not apply rainbow color layer to " + entityType.getRegistryName() + ", has custom renderer that is not LivingEntityRenderer.");
+                ForagerNonessentials.LOGGER.warn("Could not apply altered sight color layer to " + entityType.getRegistryName() + ", has custom renderer that is not LivingEntityRenderer.");
             }
             if(renderer != null){
+                ForagerNonessentials.LOGGER.info("Added altered sight layer to " + entityType.getRegistryName());
                 renderer.addLayer(new AlteredSightLayer(renderer));
             }
         }
