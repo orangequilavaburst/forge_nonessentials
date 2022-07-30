@@ -85,17 +85,19 @@ public class AlteredSightLayer extends RenderLayer {
 
         }*/
 
-        if (!playerHelmet.isEmpty()) {
-            //ForagerNonessentials.LOGGER.info("Current player is wearing a helmet");
-            if (EnchantmentHelper.getItemEnchantmentLevel(EnchantmentMod.ALTERED_SIGHT.get(), playerHelmet) > 0) {
-                //ForagerNonessentials.LOGGER.info("Helmet has altered sight");
-                //entity.setInvisible(false);
-                VertexConsumer ivertexbuilder = bufferIn.getBuffer(FNRenderTypes.alteredSight(new ResourceLocation(ForagerNonessentials.MODID, "textures/environment/altered_sight.png")));
-                float alpha = 1.0F;
-                matrixStackIn.pushPose();
-                if (entity.isInvisible()) this.getParentModel().renderToBuffer(matrixStackIn, ivertexbuilder, packedLightIn, LivingEntityRenderer.getOverlayCoords((LivingEntity) entity, 0), 1, 1, 1, alpha);
-                matrixStackIn.popPose();
-                //ForagerNonessentials.LOGGER.info("Attempted to render the altered sight effect to " + entity.getType().getRegistryName());
+        if (entity.isInvisible()) {
+            if (!playerHelmet.isEmpty()) {
+                //ForagerNonessentials.LOGGER.info("Current player is wearing a helmet");
+                if (EnchantmentHelper.getItemEnchantmentLevel(EnchantmentMod.ALTERED_SIGHT.get(), playerHelmet) > 0) {
+                    //ForagerNonessentials.LOGGER.info("Helmet has altered sight");
+                    //entity.setInvisible(false);
+                    VertexConsumer ivertexbuilder = bufferIn.getBuffer(FNRenderTypes.alteredSight(new ResourceLocation(ForagerNonessentials.MODID, "textures/environment/altered_sight.png")));
+                    float alpha = 1.0F;
+                    matrixStackIn.pushPose();
+                    this.getParentModel().renderToBuffer(matrixStackIn, ivertexbuilder, packedLightIn, LivingEntityRenderer.getOverlayCoords((LivingEntity) entity, 0), 1, 1, 1, alpha);
+                    matrixStackIn.popPose();
+                    //ForagerNonessentials.LOGGER.info("Attempted to render the altered sight effect to " + entity.getType().getRegistryName());
+                }
             }
         }
 
