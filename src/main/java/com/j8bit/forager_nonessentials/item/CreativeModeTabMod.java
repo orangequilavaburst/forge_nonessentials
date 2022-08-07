@@ -12,4 +12,11 @@ public class CreativeModeTabMod {
         }
     };
 
+    public static CreativeModeTab FORAGER_MUSIC_TAB = new CreativeModeTab("forager_music_tab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ItemMod.TEST_ITEM.get());
+        }
+    };
+
 }

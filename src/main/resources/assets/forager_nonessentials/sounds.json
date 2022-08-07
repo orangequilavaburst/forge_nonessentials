@@ -22,5 +22,386 @@
     "sounds": [
       "forager_nonessentials:amongus_death"
     ]
+  },
+
+  "deltarune_april_2012":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_april_2012",
+        "stream": true
+      }
+    ]
+  },
+  "deltarune_chaos_king":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_chaos_king",
+        "stream": true
+      }
+    ]
+  },
+  "deltarune_checker_dance":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_checker_dance",
+        "stream": true
+      }
+    ]
+  },
+  "deltarune_field_of_hopes_and_dreams":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_field_of_hopes_and_dreams",
+        "stream": true
+      }
+    ]
+  },
+  "deltarune_hip_shop":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_hip_shop",
+        "stream": true
+      }
+    ]
+  },
+  "deltarune_lancer":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_lancer",
+        "stream": true
+      }
+    ]
+  },
+  "deltarune_lantern":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_lantern",
+        "stream": true
+      }
+    ]
+  },
+  "deltarune_rude_buster":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_rude_buster",
+        "stream": true
+      }
+    ]
+  },
+  "deltarune_school":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_school",
+        "stream": true
+      }
+    ]
+  },
+  "deltarune_the_world_revolving":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:deltarune_the_world_revolving",
+        "stream": true
+      }
+    ]
+  },
+
+  "fnf_breakfast":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_breakfast",
+        "stream": true
+      }
+    ]
+  },
+  "fnf_eggnog":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_eggnog",
+        "stream": true
+      }
+    ]
+  },
+  "fnf_fresh":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_fresh",
+        "stream": true
+      }
+    ]
+  },
+  "fnf_gettin_freaky":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_gettin_freaky",
+        "stream": true
+      }
+    ]
+  },
+  "fnf_high":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_high",
+        "stream": true
+      }
+    ]
+  },
+  "fnf_monster":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_monster",
+        "stream": true
+      }
+    ]
+  },
+  "fnf_pico":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_pico",
+        "stream": true
+      }
+    ]
+  },
+  "fnf_roses":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_roses",
+        "stream": true
+      }
+    ]
+  },
+  "fnf_south":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_south",
+        "stream": true
+      }
+    ]
+  },
+  "fnf_tutorial":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:fnf_tutorial",
+        "stream": true
+      }
+    ]
+  },
+
+  "undertale_amalgam":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_amalgam",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_asgore":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_asgore",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_battle_against_a_true_hero":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_battle_against_a_true_hero",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_bonetrousle":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_bonetrousle",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_chill":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_chill",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_core":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_core",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_dating_start":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_dating_start",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_death_by_glamour":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_death_by_glamour",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_dummy":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_dummy",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_finale":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_finale",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_heartache":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_heartache",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_home":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_home",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_home_musicbox":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_home_musicbox",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_hopes_and_dreams":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_hopes_and_dreams",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_megalovania":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_megalovania",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_memory":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_memory",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_premonition":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_premonition",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_sans":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_sans",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_snowdin_town":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_snowdin_town",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_song_that_might_play_when_you_fight_sans":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_song_that_might_play_when_you_fight_sans",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_spear_of_justice":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_spear_of_justice",
+        "stream": true
+      }
+    ]
+  },
+  "undertale_spider_dance":
+  {
+    "sounds":[
+      {
+        "name": "forager_nonessentials:undertale_spider_dance",
+        "stream": true
+      }
+    ]
   }
 }
