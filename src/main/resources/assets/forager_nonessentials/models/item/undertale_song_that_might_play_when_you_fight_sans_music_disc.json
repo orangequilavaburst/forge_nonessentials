@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "forager_nonessentials:item/music_discs/undertale_song_that_might_play_when_you_fight_sans_music_disc"
+  }
+}

@@ -15,7 +15,7 @@ public class CreativeModeTabMod {
     public static CreativeModeTab FORAGER_MUSIC_TAB = new CreativeModeTab("forager_music_tab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ItemMod.TEST_ITEM.get());
+            return new ItemStack(ItemMod.UNDERTALE_HOPES_AND_DREAMS_MUSIC_DISC.get());
         }
     };
 

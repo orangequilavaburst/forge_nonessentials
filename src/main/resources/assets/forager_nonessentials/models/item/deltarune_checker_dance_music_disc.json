@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "forager_nonessentials:item/music_discs/deltarune_checker_dance_music_disc"
+  }
+}

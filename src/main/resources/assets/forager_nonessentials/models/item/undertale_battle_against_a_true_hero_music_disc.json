@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "forager_nonessentials:item/music_discs/undertale_battle_against_a_true_hero_music_disc"
+  }
+}
