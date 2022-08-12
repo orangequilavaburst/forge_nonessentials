@@ -25,6 +25,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import software.bernie.example.GeckoLibMod;
 import software.bernie.geckolib3.GeckoLib;
 
 import java.util.stream.Collectors;
@@ -52,6 +53,7 @@ public class ForagerNonessentials
         ParticleMod.register(modEventBus);
         EnchantmentMod.register(modEventBus);
 
+        GeckoLibMod.DISABLE_IN_DEV = true;
         GeckoLib.initialize();
 
         // Register ourselves for server and other game events we are interested in

@@ -2,6 +2,7 @@ package com.j8bit.forager_nonessentials.entity.client;
 
 import com.google.common.collect.Maps;
 import com.j8bit.forager_nonessentials.ForagerNonessentials;
+import com.j8bit.forager_nonessentials.client.render.layer.AlteredSightGeoLayer;
 import com.j8bit.forager_nonessentials.entity.AmongusEntity;
 import com.j8bit.forager_nonessentials.entity.client.variant.AmongusVariant;
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -50,6 +51,7 @@ public class AmongusRenderer extends GeoEntityRenderer<AmongusEntity> {
 
     public AmongusRenderer(EntityRendererProvider.Context renderManager) {
         super(renderManager, new AmongusModel());
+        this.addLayer(new AlteredSightGeoLayer(this));
         this.shadowRadius = 0.5f;
     }
 
