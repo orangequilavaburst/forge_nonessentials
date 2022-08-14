@@ -1,4 +1,4 @@
-package com.j8bit.forager_nonessentials.item;
+package com.j8bit.forager_nonessentials.item.custom;
 
 import com.j8bit.forager_nonessentials.ForagerNonessentials;
 import net.minecraft.network.chat.Component;

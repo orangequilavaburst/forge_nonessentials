@@ -1,6 +1,6 @@
 package com.j8bit.forager_nonessentials.entity.projectile;
 
-import com.j8bit.forager_nonessentials.item.ItemSpear;
+import com.j8bit.forager_nonessentials.item.custom.ItemSpear;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.syncher.EntityDataAccessor;

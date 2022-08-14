@@ -1,4 +1,4 @@
-package com.j8bit.forager_nonessentials.item;
+package com.j8bit.forager_nonessentials.item.custom;
 
 import com.google.common.collect.Maps;
 import com.j8bit.forager_nonessentials.ForagerNonessentials;

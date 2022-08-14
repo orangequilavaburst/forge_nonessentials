@@ -71,6 +71,9 @@ minecraft {
                     source sourceSets.main
                 }
             }
+
+            args '--uuid', 'f6065061-7e65-413e-bc75-accf6c09ce0a'
+
         }
 
         server {

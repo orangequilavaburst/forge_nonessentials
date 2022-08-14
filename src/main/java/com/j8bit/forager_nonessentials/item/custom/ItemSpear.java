@@ -1,4 +1,4 @@
-package com.j8bit.forager_nonessentials.item;
+package com.j8bit.forager_nonessentials.item.custom;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
