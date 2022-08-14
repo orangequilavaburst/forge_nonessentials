@@ -70,7 +70,7 @@ public class EventBusEventsClientMod {
 
         ForagerNonessentials.LOGGER.info("Added "
                 + event.getPotionEffect().getEffect().getRegistryName()
-                + " of powwer "
+                + " of power "
                 + event.getPotionEffect().getAmplifier()
                 + " to "
                 + event.getEntityLiving().getType().getRegistryName()
