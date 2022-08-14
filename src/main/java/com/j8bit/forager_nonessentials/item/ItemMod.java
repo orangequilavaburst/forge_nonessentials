@@ -5,6 +5,7 @@ import com.j8bit.forager_nonessentials.entity.EntityMod;
 import com.j8bit.forager_nonessentials.font.FontMod;
 import com.j8bit.forager_nonessentials.sound.SoundMod;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -53,6 +54,9 @@ public class ItemMod {
            () -> new HoeItem(ToolTierMod.ORICHALCUM, 0, 0.0f, new Item.Properties().tab(CreativeModeTabMod.FORAGER_TAB)));
 
    // armor items
+
+   public static final RegistryObject<Item> BASIC_CLOAK = ITEMS.register("basic_cloak",
+           () -> new ItemClothArmor(ArmorTierMod.CLOTH, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTabMod.FORAGER_TAB)));
 
    // spawn eggs
 
