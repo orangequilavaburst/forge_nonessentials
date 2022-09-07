@@ -53,7 +53,7 @@ out vec4 fragColor;
 void main() {
     vec3 color = textureProj(Sampler0, texProj0 * basetranslate).rgb * COLORS[0];
     for (int i = 0; i < AlteredSightLayers; i++) {
-        color += textureProj(Sampler0, texProj0 * altered_sight_layer(float(i + 1))).rgb * COLORS[i] * 0.25;
+        color += textureProj(Sampler0, texProj0 * altered_sight_layer(float(i + 1))).rgb * COLORS[i] * sin((GameTime + i*20)*0.1);
     }
     fragColor = vec4(color, 1.0);
 }

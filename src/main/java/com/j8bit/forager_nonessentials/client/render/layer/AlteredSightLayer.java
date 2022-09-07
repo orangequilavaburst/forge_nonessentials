@@ -6,7 +6,6 @@ import com.j8bit.forager_nonessentials.client.render.FNRenderTypes;
 import com.j8bit.forager_nonessentials.enchantment.EnchantmentMod;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import jdk.nashorn.internal.ir.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.client.renderer.EffectInstance;
