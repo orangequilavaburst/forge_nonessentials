@@ -26,4 +26,6 @@ public class EventBusEventsMod {
         event.put(EntityMod.AMONGUS.get(), AmongusEntity.setAttributes());
     }
 
+    
+
 }

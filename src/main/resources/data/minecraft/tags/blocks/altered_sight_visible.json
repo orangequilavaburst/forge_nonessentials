@@ -1,0 +1,11 @@
+{
+
+  "replace": false,
+  "values": [
+
+    "minecraft:infested_stone",
+    "minecraft:infested_cobblestone"
+
+  ]
+
+}

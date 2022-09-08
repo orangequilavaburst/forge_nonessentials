@@ -32,11 +32,22 @@ import java.util.ArrayList;
 
 @Mod.EventBusSubscriber(modid = ForagerNonessentials.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class EventBusEventsClientMod {
+
+    public static ArrayList<Block> alteredSightBlocks = new ArrayList<Block>();
+
     @SubscribeEvent
     public void clientSetup(final FMLClientSetupEvent event)
     {
 
         EntityRenderers.register(EntityMod.AMONGUS.get(), AmongusRenderer::new);
+
+        alteredSightBlocks.add(Blocks.INFESTED_COBBLESTONE);
+        alteredSightBlocks.add(Blocks.INFESTED_DEEPSLATE);
+        alteredSightBlocks.add(Blocks.INFESTED_STONE);
+        alteredSightBlocks.add(Blocks.INFESTED_CHISELED_STONE_BRICKS);
+        alteredSightBlocks.add(Blocks.INFESTED_MOSSY_STONE_BRICKS);
+        alteredSightBlocks.add(Blocks.INFESTED_CRACKED_STONE_BRICKS);
+        alteredSightBlocks.add(Blocks.INFESTED_STONE_BRICKS);
 
     }
 

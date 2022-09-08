@@ -38,4 +38,13 @@ public class ItemCloakArmor extends GeoArmorItem implements IAnimatable {
         event.getController().setAnimation(new AnimationBuilder().addAnimation("idle", true));
         return PlayState.CONTINUE;
     }
+
+    @Override
+    public void onArmorTick(ItemStack stack, Level level, Player player) {
+        super.onArmorTick(stack, level, player);
+
+
+
+    }
+
 }
